@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom base styles */
+html {
+  scroll-behavior: smooth;
+}
+body {
+  @apply bg-bg-base text-text-primary font-body;
+}
+
+:root {
+  --gradient-cta: linear-gradient(135deg, #C2771E 0%, #E8A030 100%);
+  --gradient-hero: linear-gradient(160deg, rgba(8,11,8,0.97) 20%, rgba(10,16,10,0.7) 60%, rgba(8,11,8,0.97) 100%);
+}
+
+/* Glassmorphism backdrop */
+.glass {
+  @apply bg-glass-bg backdrop-blur-md rounded-lg;
+}
+
+/* Grain overlay */
+.grain::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100"><filter id="noise"><feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="4" stitchTiles="stitch"/></filter><rect width="100%" height="100%" filter="url(%23noise)" opacity="0.03"/></svg>');
+  pointer-events: none;
+  opacity: 0.03;
+}
+
+.commodity-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1px; /* gap becomes border lines */
+  background: rgba(212,136,42,0.08); /* gap color = copper tint lines */
+}
+
+@media (min-width: 1024px) {
+  .commodity-grid {
+    grid-template-columns: 2fr 1.5fr 1.5fr;
+    grid-template-rows: auto auto auto;
+  }
+  
+  /* Coal: tall left cell spans 2 rows */
+  .card-coal    { grid-row: 1 / 3; }
+  /* Agricultural: wide bottom spans 2 cols */
+  .card-agri    { grid-column: 1 / 3; }
+}
+
+.section-divider {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(212,136,42,0.3), transparent);
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  animation: marquee 25s linear infinite;
+}
