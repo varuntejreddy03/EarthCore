@@ -56,8 +56,8 @@ export default function AboutPage() {
             
             <div className="grid grid-cols-2 gap-8 border-t border-border-subtle pt-8 mt-4">
               <div className="flex flex-col gap-1">
-                <span className="font-heading font-[800] text-[48px] text-accent-primary leading-none">20+</span>
-                <span className="font-body text-text-muted text-sm uppercase tracking-wider">Years Experience</span>
+                <span className="font-heading font-[800] text-[40px] pt-1 text-accent-primary leading-none">Global</span>
+                <span className="font-body text-text-muted text-sm uppercase tracking-wider">Reach</span>
               </div>
               <div className="flex flex-col gap-1">
                 <span className="font-heading font-[800] text-[48px] text-accent-primary leading-none">360°</span>
@@ -81,7 +81,7 @@ export default function AboutPage() {
           <p className="font-mono text-accent-primary text-[11px] uppercase tracking-[0.2em] mb-8">Founder & Director</p>
           
           <p className="font-body text-text-secondary text-lg leading-[1.7] max-w-2xl">
-            With over two decades operating across volatile global markets, Raghav established EarthCore to bring an unprecedented level of transparency and operational excellence to bulk commodities trading. His philosophy emphasizes long-term partnerships over transactional velocity.
+            Operating across volatile global markets, Raghav established EarthCore to bring an unprecedented level of transparency and operational excellence to bulk commodities trading. His philosophy emphasizes long-term partnerships over transactional velocity.
           </p>
         </div>
       </section>

@@ -11,8 +11,8 @@ body {
 }
 
 :root {
-  --gradient-cta: linear-gradient(135deg, #C2771E 0%, #E8A030 100%);
-  --gradient-hero: linear-gradient(160deg, rgba(8,11,8,0.97) 20%, rgba(10,16,10,0.7) 60%, rgba(8,11,8,0.97) 100%);
+  --gradient-cta: linear-gradient(135deg, #C9862A 0%, #D4882A 100%);
+  --gradient-hero: linear-gradient(160deg, rgba(249,247,242,0.8) 0%, rgba(240,235,225,0.4) 50%, rgba(249,247,242,0.85) 100%);
 }
 
 /* Glassmorphism backdrop */
@@ -34,7 +34,7 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   gap: 1px; /* gap becomes border lines */
-  background: rgba(212,136,42,0.08); /* gap color = copper tint lines */
+  background: rgba(201,134,42,0.2); /* gap color = copper tint lines */
 }
 
 @media (min-width: 1024px) {

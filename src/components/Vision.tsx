@@ -19,12 +19,12 @@ export default function Vision() {
           initial={{ opacity: 0, x: -30 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
-          className="relative bg-gradient-to-br from-[#111318] to-[#0d1420] p-12 md:p-16 rounded-sm shadow-xl flex flex-col justify-center min-h-[400px]"
+          className="relative bg-gradient-to-br from-bg-surface to-bg-elevated p-12 md:p-16 rounded-sm shadow-xl flex flex-col justify-center min-h-[400px]"
         >
           <div className="absolute top-0 left-0 w-[4px] h-full bg-accent-primary"></div>
           
-          <h3 className="font-heading font-medium italic text-[32px] md:text-[40px] text-white leading-snug mb-8">
-            "To become a trusted global partner in commodities trading."
+          <h3 className="font-heading font-medium italic text-[32px] md:text-[40px] text-text-primary leading-snug mb-8">
+            "To become a trusted global partner in commodities trading by delivering value, reliability, and transparency across the supply chain."
           </h3>
           <p className="font-mono text-accent-earth text-sm uppercase tracking-[0.2em] mt-auto">
             Our Vision
@@ -38,9 +38,9 @@ export default function Vision() {
           viewport={{ once: true }}
           className="relative bg-bg-elevated p-12 md:p-16 rounded-sm shadow-xl flex flex-col justify-center min-h-[400px]"
         >
-          <div className="absolute top-0 left-0 w-[4px] h-full bg-accent-earth"></div>
+          <div className="absolute top-0 left-0 w-[4px] h-full bg-accent-primary"></div>
           
-          <h3 className="font-heading font-semibold text-3xl text-white mb-8">Our Commitment</h3>
+          <h3 className="font-heading font-semibold text-3xl text-text-primary mb-8">Our Commitment</h3>
           
           <ul className="flex flex-col gap-6">
             {commitments.map((item, i) => (

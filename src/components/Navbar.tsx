@@ -28,7 +28,7 @@ export default function Navbar() {
       className={cn(
         'fixed top-0 w-full z-50 transition-all duration-300',
         scrolled
-          ? 'h-16 backdrop-blur-[20px] bg-[rgba(8,11,8,0.85)] border-b border-border-accent/15'
+          ? 'h-16 backdrop-blur-[20px] bg-bg-base/90 border-b border-border-accent/15'
           : 'h-[72px] bg-transparent'
       )}
     >
@@ -36,13 +36,10 @@ export default function Navbar() {
         {/* Logo */}
         <Link to="/" className="flex flex-col relative z-50 group mt-1">
           <div className="flex items-center">
-            <span className="font-heading font-bold text-2xl text-white tracking-[0.08em] leading-none">
-              EARTHCORE<span className="text-accent-primary">.</span>
+            <span className="font-heading font-bold text-2xl text-text-primary tracking-[0.08em] leading-none">
+              EarthCore
             </span>
           </div>
-          <span className="font-mono text-[10px] text-text-muted mt-1 tracking-[0.3em] pl-[2px] leading-none">
-            RESOURCES
-          </span>
         </Link>
 
         {/* Desktop Nav */}
@@ -55,7 +52,7 @@ export default function Navbar() {
                 to={link.path}
                 className={cn(
                   'text-sm font-medium transition-colors relative py-1',
-                  isActive ? 'text-[#EEE8DC]' : 'text-text-secondary hover:text-white'
+                  isActive ? 'text-text-primary' : 'text-text-secondary hover:text-text-primary'
                 )}
               >
                 {link.name}
@@ -75,9 +72,9 @@ export default function Navbar() {
               boxShadow: '0 8px 32px rgba(212,136,42,0.5)',
             }}
             whileTap={{ scale: 0.97 }}
-            className="text-[#080B08] px-5 py-2 rounded-sm text-sm font-bold transition-all"
+            className="text-white px-5 py-2 rounded-sm text-sm font-bold transition-all"
             style={{
-              background: 'linear-gradient(135deg, #C2771E, #E8A030)',
+              background: 'var(--gradient-cta)',
               boxShadow: '0 4px 24px rgba(212,136,42,0.3)'
             }}
           >
@@ -87,7 +84,7 @@ export default function Navbar() {
 
         {/* Mobile Toggle */}
         <button
-          className="md:hidden relative z-50 text-white p-2"
+          className="md:hidden relative z-50 text-text-primary p-2"
           onClick={() => setIsOpen(!isOpen)}
         >
           {isOpen ? <X size={24} /> : <Menu size={24} />}
@@ -100,7 +97,7 @@ export default function Navbar() {
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -20 }}
-              className="absolute top-0 left-0 w-full h-screen bg-[#080B08]/95 backdrop-blur-2xl px-6 pt-24 pb-8 flex flex-col"
+              className="absolute top-0 left-0 w-full h-screen bg-bg-base/95 backdrop-blur-2xl px-6 pt-24 pb-8 flex flex-col"
             >
               <div className="flex flex-col gap-6 text-xl">
                 {navLinks.map((link) => (
@@ -108,16 +105,16 @@ export default function Navbar() {
                     key={link.name}
                     to={link.path}
                     onClick={() => setIsOpen(false)}
-                    className="font-heading font-medium text-white/80 hover:text-white"
+                    className="font-heading font-medium text-text-secondary hover:text-text-primary"
                   >
                     {link.name}
                   </Link>
                 ))}
                 <div className="mt-8">
                   <button 
-                  className="w-full text-[#080B08] px-5 py-3 rounded-sm text-base font-bold text-center flex justify-center"
+                  className="w-full text-white px-5 py-3 rounded-sm text-base font-bold text-center flex justify-center"
                   style={{
-                    background: 'linear-gradient(135deg, #C2771E, #E8A030)',
+                    background: 'var(--gradient-cta)',
                   }}>
                     Get In Touch
                   </button>

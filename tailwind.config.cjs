@@ -7,20 +7,20 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "bg-base": "#080B08",
-        "bg-surface": "#0F1410",
-        "bg-elevated": "#161D17",
-        "bg-section-alt": "#0C1309",
-        "accent-primary": "#D4882A",
-        "accent-hover": "#E8A030",
+        "bg-base": "#F9F7F2",
+        "bg-surface": "#F0EBE1",
+        "bg-elevated": "#EBE4D5",
+        "bg-section-alt": "#FFFFFF",
+        "accent-primary": "#C9862A",
+        "accent-hover": "#D4882A",
         "accent-secondary": "#4CAF7D",
         "accent-steel": "#7EB8C9",
-        "text-primary": "#EEE8DC",
-        "text-secondary": "#9EA898",
-        "text-muted": "#5A6057",
-        "border-subtle": "rgba(212,136,42,0.08)",
-        "border-accent": "rgba(212,136,42,0.35)",
-        "glass-bg": "rgba(8,11,8,0.85)"
+        "text-primary": "#1B2A3B",
+        "text-secondary": "#3A4A5B",
+        "text-muted": "#64748B",
+        "border-subtle": "rgba(201,134,42,0.15)",
+        "border-accent": "rgba(201,134,42,0.4)",
+        "glass-bg": "rgba(249,247,242,0.85)"
       },
       fontFamily: {
         heading: ["'Fraunces'", "Georgia", "serif"],
