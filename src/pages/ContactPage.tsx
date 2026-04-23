@@ -39,17 +39,11 @@ export default function ContactPage() {
             </h1>
             
             <p className="font-heading italic text-[24px] text-text-secondary mb-16 border-l-2 border-accent-primary pl-6 hover:border-l-[4px] transition-all">
-              "Partner with EarthCore Resources to secure consistent quality, competitive pricing, and robust supply chain solutions."
+              "Partner with EarthCore Resources for reliable quality, competitive pricing, and unbreakable supply chain solutions that keep your business moving forward."
             </p>
 
             <div className="flex flex-col gap-8 mb-16">
-              <div className="flex items-start gap-4">
-                <User className="text-accent-primary w-6 h-6 mt-0.5" />
-                <div>
-                  <p className="text-text-primary font-heading font-semibold text-xl">Raghav Reddy</p>
-                  <p className="text-text-muted font-body text-sm mt-1">Relationship Manager</p>
-                </div>
-              </div>
+
 
               <div className="flex items-start gap-4">
                 <Phone className="text-accent-primary w-6 h-6 mt-0.5" />

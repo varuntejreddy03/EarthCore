@@ -72,7 +72,7 @@ export default function Services() {
             
             <h4 className="font-heading font-semibold text-2xl text-text-primary mb-4">An Integrated Approach</h4>
             <p className="font-body text-text-secondary text-lg leading-relaxed max-w-4xl">
-              By controlling key segments of the supply chain, EarthCore minimizes disruption risks and maximizes efficiency. Our strategic positioning enables us to adapt dynamically to market shifts, delivering consistent value beyond mere transaction execution.
+              Mastering supply chain segments, EarthCore slashes disruptions and drives efficiency. Our strategic edge enables rapid adaptation to market shifts, delivering lasting value beyond transactions.
             </p>
           </div>
         </motion.div>

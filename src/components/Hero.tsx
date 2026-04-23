@@ -69,12 +69,7 @@ export default function Hero() {
               Explore Commodities
               <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
             </Link>
-            <Link 
-              to="/contact"
-              className="bg-white text-text-primary px-6 py-3 rounded-sm font-bold shadow-md hover:shadow-lg hover:bg-bg-surface transition-all flex items-center justify-center"
-            >
-              Contact Raghav Reddy
-            </Link>
+
           </motion.div>
         </div>
 

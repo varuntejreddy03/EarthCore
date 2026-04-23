@@ -22,7 +22,7 @@ export default function Contact() {
           >
             <h2 className="font-heading font-bold text-5xl text-text-primary mb-6">Let's Trade Together</h2>
             <p className="font-body text-text-secondary text-lg">
-              Partner with EarthCore Resources to secure consistent quality, competitive pricing, and robust supply chain solutions.
+              Partner with EarthCore Resources for reliable quality, competitive pricing, and unbreakable supply chain solutions that keep your business moving forward.
             </p>
           </motion.div>
 
@@ -33,13 +33,7 @@ export default function Contact() {
             transition={{ delay: 0.2 }}
             className="flex flex-col gap-8 mb-12"
           >
-            <div className="flex items-start gap-4">
-              <User className="text-accent-primary w-6 h-6 mt-1" />
-              <div>
-                <p className="text-text-primary font-medium text-lg">Raghav Reddy</p>
-                <p className="text-text-muted text-sm">Relationship Manager</p>
-              </div>
-            </div>
+
 
             <div className="flex items-start gap-4">
               <Phone className="text-accent-primary w-6 h-6 mt-1" />

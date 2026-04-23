@@ -48,10 +48,10 @@ export default function AboutPage() {
               Forging Global Connections
             </h2>
             <p className="font-body text-text-secondary text-lg leading-[1.7]">
-              EarthCore Resources is a premier commodities trading and logistics firm. Founded by seasoned professionals, we bring robust expertise to the table, facilitating the seamless flow of vital resources across global markets. 
+              EarthCore Resources delivers unmatched expertise in commodities trading and logistics. We power the seamless global flow of essential resources with precision and reliability.
             </p>
             <p className="font-body text-text-secondary text-lg leading-[1.7]">
-              Our integrated approach ensures reliability, transparency, and value at every stage of the supply chain. We understand that in commodities, trust is the ultimate currency.
+              Our end-to-end approach guarantees transparency, efficiency, and maximum value across every supply chain stage. In commodities, trust is our ultimate currency—and we deliver it every time.
             </p>
             
             <div className="grid grid-cols-2 gap-8 border-t border-border-subtle pt-8 mt-4">
@@ -68,23 +68,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <div className="section-divider"></div>
 
-      {/* Leadership Section */}
-      <section className="py-24 bg-bg-base">
-        <div className="max-w-[800px] mx-auto px-6 text-center flex flex-col items-center">
-          <div className="w-[80px] h-[80px] rounded-full border border-accent-primary flex items-center justify-center bg-bg-surface shadow-[0_0_30px_rgba(212,136,42,0.15)] mb-8">
-            <span className="font-heading font-bold text-2xl text-accent-primary">RR</span>
-          </div>
-          
-          <h2 className="font-heading font-[700] text-[32px] text-text-primary mb-2">Raghav Reddy</h2>
-          <p className="font-mono text-accent-primary text-[11px] uppercase tracking-[0.2em] mb-8">Founder & Director</p>
-          
-          <p className="font-body text-text-secondary text-lg leading-[1.7] max-w-2xl">
-            Operating across volatile global markets, Raghav established EarthCore to bring an unprecedented level of transparency and operational excellence to bulk commodities trading. His philosophy emphasizes long-term partnerships over transactional velocity.
-          </p>
-        </div>
-      </section>
 
       <div className="section-divider"></div>
 

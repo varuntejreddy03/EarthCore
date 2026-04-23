@@ -22,7 +22,7 @@ export default function Commodities() {
         <div className="commodity-grid shadow-2xl">
           {commodities.map((item) => (
             <Link 
-              to="/commodities"
+              to={`/commodities#${item.id}`}
               key={item.id}
               className={`relative bg-bg-elevated p-8 md:p-12 flex flex-col group overflow-hidden border border-transparent hover:border-accent-earth/30 transition-all hover:shadow-xl hover:-translate-y-1 ${item.cssClass}`}
             >

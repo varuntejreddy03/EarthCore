@@ -1,10 +1,11 @@
 import { Helmet } from 'react-helmet-async';
-
-import { Link } from 'react-router-dom';
+import { useEffect } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
 
 const commoditiesData = [
   {
+    id: 'coal',
     title: 'Coal',
     specs: 'Thermal • Metallurgical',
     desc: 'High-grade thermal and metallurgical coal catering to distinct energy and industrial needs globally. Sourced from premier basins with strict quality control.',
@@ -12,6 +13,7 @@ const commoditiesData = [
     align: 'left'
   },
   {
+    id: 'iron-ore',
     title: 'Iron Ore',
     specs: 'Fines • Lumps • Pellets',
     desc: 'Primary components for steel production. We deliver consistent Fe content optimized for blast furnace and direct reduction operations.',
@@ -19,6 +21,7 @@ const commoditiesData = [
     align: 'right'
   },
   {
+    id: 'petroleum',
     title: 'Petroleum Products',
     specs: 'Crude • Refined • Lubricants',
     desc: 'A comprehensive suite of energy solutions powering modern industry. Handled with world-class maritime logistics.',
@@ -26,6 +29,7 @@ const commoditiesData = [
     align: 'left'
   },
   {
+    id: 'agri',
     title: 'Agricultural',
     specs: 'Grains • Oilseeds • Pulses',
     desc: 'Securing global food chains through reliable sourcing, bulk transportation, and rigorous compliance with international standards.',
@@ -33,15 +37,40 @@ const commoditiesData = [
     align: 'right'
   },
   {
+    id: 'chemicals',
     title: 'Chemicals',
     specs: 'Polymers • Industrial Compounds',
     desc: 'Specialized industrial grade chemicals pivotal for manufacturing, seamlessly delivered with specialized safety protocols.',
     image: 'https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=800&q=80',
     align: 'left'
+  },
+  {
+    id: 'scrap',
+    title: 'Ferrous & Non-Ferrous Scrap',
+    specs: 'Recycled Metals • Industrial Scrap',
+    desc: 'Sustainable recycling globally.',
+    image: 'https://images.unsplash.com/photo-1530587191325-3db32d826c18?w=800&q=80',
+    align: 'right'
   }
 ];
 
 export default function CommoditiesPage() {
+  const { hash } = useLocation();
+
+  useEffect(() => {
+    if (hash) {
+      const id = hash.replace('#', '');
+      const element = document.getElementById(id);
+      if (element) {
+        setTimeout(() => {
+          element.scrollIntoView({ behavior: 'smooth' });
+        }, 100);
+      }
+    } else {
+      window.scrollTo(0, 0);
+    }
+  }, [hash]);
+
   return (
     <div className="w-full flex flex-col pt-[72px]">
       <Helmet>
@@ -67,7 +96,7 @@ export default function CommoditiesPage() {
       {/* Featured Rows */}
       <div className="flex flex-col">
         {commoditiesData.map((item, index) => (
-          <section key={index} className="py-24 even:bg-bg-surface odd:bg-bg-section-alt border-y border-border-subtle relative">
+          <section key={index} id={item.id} className="py-24 even:bg-bg-surface odd:bg-bg-section-alt border-y border-border-subtle relative scroll-mt-[72px]">
             <div className={`max-w-[1280px] mx-auto px-6 lg:px-16 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center ${item.align === 'right' ? 'lg:flex-row-reverse' : ''}`}>
               
               {/* Image Block */}

@@ -24,7 +24,7 @@ export default function Vision() {
           <div className="absolute top-0 left-0 w-[4px] h-full bg-accent-primary"></div>
           
           <h3 className="font-heading font-medium italic text-[32px] md:text-[40px] text-text-primary leading-snug mb-8">
-            "To become a trusted global partner in commodities trading by delivering value, reliability, and transparency across the supply chain."
+            "Trusted Global Partner in Commodities Trading—Delivering Value, Reliability, and Transparency Across the Supply Chain."
           </h3>
           <p className="font-mono text-accent-earth text-sm uppercase tracking-[0.2em] mt-auto">
             Our Vision
