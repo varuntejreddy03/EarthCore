@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { User, Phone, Mail, Clock, ArrowRight } from 'lucide-react';
+import { Phone, Mail, Clock, ArrowRight } from 'lucide-react';
 import Section from './Section';
 
 export default function Contact() {

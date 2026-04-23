@@ -1,5 +1,5 @@
 import { Helmet } from 'react-helmet-async';
-import { User, Phone, Mail, Clock, ArrowRight } from 'lucide-react';
+import { Phone, Mail, Clock, ArrowRight } from 'lucide-react';
 
 
 export default function ContactPage() {
