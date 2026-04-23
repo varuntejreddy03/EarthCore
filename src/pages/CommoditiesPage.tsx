@@ -9,7 +9,7 @@ const commoditiesData = [
     title: 'Coal',
     specs: 'Thermal • Metallurgical',
     desc: 'High-grade thermal and metallurgical coal catering to distinct energy and industrial needs globally. Sourced from premier basins with strict quality control.',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80',
+    image: '/coal.png',
     align: 'left'
   },
   {
@@ -17,7 +17,7 @@ const commoditiesData = [
     title: 'Iron Ore',
     specs: 'Fines • Lumps • Pellets',
     desc: 'Primary components for steel production. We deliver consistent Fe content optimized for blast furnace and direct reduction operations.',
-    image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80',
+    image: '/iron-ore.png',
     align: 'right'
   },
   {
@@ -25,7 +25,7 @@ const commoditiesData = [
     title: 'Petroleum Products',
     specs: 'Crude • Refined • Lubricants',
     desc: 'A comprehensive suite of energy solutions powering modern industry. Handled with world-class maritime logistics.',
-    image: 'https://images.unsplash.com/photo-1518186285589-2f7649de83e0?w=800&q=80',
+    image: '/petroleum.png',
     align: 'left'
   },
   {
@@ -33,7 +33,7 @@ const commoditiesData = [
     title: 'Agricultural',
     specs: 'Grains • Oilseeds • Pulses',
     desc: 'Securing global food chains through reliable sourcing, bulk transportation, and rigorous compliance with international standards.',
-    image: 'https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=800&q=80',
+    image: '/agricultural.png',
     align: 'right'
   },
   {
@@ -41,7 +41,7 @@ const commoditiesData = [
     title: 'Chemicals',
     specs: 'Polymers • Industrial Compounds',
     desc: 'Specialized industrial grade chemicals pivotal for manufacturing, seamlessly delivered with specialized safety protocols.',
-    image: 'https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=800&q=80',
+    image: '/chemicals.png',
     align: 'left'
   },
   {
@@ -49,7 +49,7 @@ const commoditiesData = [
     title: 'Ferrous & Non-Ferrous Scrap',
     specs: 'Recycled Metals • Industrial Scrap',
     desc: 'Sustainable recycling globally.',
-    image: 'https://images.unsplash.com/photo-1530587191325-3db32d826c18?w=800&q=80',
+    image: '/scrap.png',
     align: 'right'
   }
 ];
@@ -80,10 +80,10 @@ export default function CommoditiesPage() {
       {/* Hero Banner */}
       <section className="relative w-full min-h-[40vh] flex items-center justify-center overflow-hidden bg-bg-base">
         <div 
-          className="absolute inset-0 z-0 bg-cover bg-center opacity-30 mix-blend-luminosity"
-          style={{ backgroundImage: `url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1800&q=80')` }}
+          className="absolute inset-0 z-0 bg-cover bg-center opacity-60"
+          style={{ backgroundImage: `url('/commodities-hero.png')` }}
         />
-        <div className="absolute inset-0 z-0 bg-gradient-to-t from-bg-base via-bg-base/80 to-transparent" />
+        <div className="absolute inset-0 z-0 bg-gradient-to-t from-bg-base via-bg-base/60 to-bg-base/30" />
         
         <div className="relative z-10 text-center flex flex-col items-center max-w-[1280px] px-6 lg:px-16 w-full mt-12">
           <h1 className="font-heading font-[700] text-5xl md:text-[72px] text-text-primary leading-[1.05] tracking-tighter">

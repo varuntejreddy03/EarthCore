@@ -13,7 +13,7 @@ export default function About() {
           transition={{ duration: 0.5, ease: 'easeOut' }}
         >
           <img 
-            src="/about-image.png" 
+            src="/about-home.png" 
             alt="Global Logistics Operations"
             className="absolute inset-0 w-full h-full object-cover"
           />

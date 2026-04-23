@@ -12,7 +12,7 @@ export default function ServicesPage() {
         'Stringent quality verification and compliance',
         'Real-time physical hedging mechanisms'
       ],
-      image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80',
+      image: '/services-trading.png',
       align: 'left'
     },
     {
@@ -24,7 +24,7 @@ export default function ServicesPage() {
         'Port handling and custom clearances',
         'Last-mile delivery integration'
       ],
-      image: 'https://images.unsplash.com/photo-1611273426858-450d8e3c9fce?w=800&q=80',
+      image: '/services-shipping.png',
       align: 'right'
     },
     {
@@ -36,7 +36,7 @@ export default function ServicesPage() {
         'Geopolitical risk assessment',
         'Customized procurement strategies'
       ],
-      image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80',
+      image: '/services-intelligence.png',
       align: 'left'
     }
   ];

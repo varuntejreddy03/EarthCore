@@ -3,11 +3,11 @@ import { Pickaxe, Flame, Droplets, Recycle, Sprout } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const commodities = [
-  { id: 'coal', name: 'Coal', desc: 'Thermal and metallurgical coal.', icon: Flame, cssClass: 'card-coal', hoverImg: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&q=80' },
-  { id: 'iron-ore', name: 'Iron Ore', desc: 'High-grade primary components.', icon: Pickaxe, cssClass: '', hoverImg: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=400&q=80' },
-  { id: 'petroleum', name: 'Petroleum Products', desc: 'Refined fuels and industrial lubricants.', icon: Droplets, cssClass: '', hoverImg: 'https://images.unsplash.com/photo-1518186285589-2f7649de83e0?w=400&q=80' },
-  { id: 'scrap', name: 'Ferrous & Non-Ferrous Scrap', desc: 'Sustainable recycling globally.', icon: Recycle, cssClass: '', hoverImg: 'https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400&q=80' },
-  { id: 'agri', name: 'Agricultural Commodities', desc: 'Grains, pulses, and edible oils securing food chains.', icon: Sprout, cssClass: 'card-agri flex-row items-center justify-between', hoverImg: 'https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=800&q=80' },
+  { id: 'coal', name: 'Coal', desc: 'Thermal and metallurgical coal.', icon: Flame, cssClass: 'card-coal', hoverImg: '/coal.png' },
+  { id: 'iron-ore', name: 'Iron Ore', desc: 'High-grade primary components.', icon: Pickaxe, cssClass: '', hoverImg: '/iron-ore.png' },
+  { id: 'petroleum', name: 'Petroleum Products', desc: 'Refined fuels and industrial lubricants.', icon: Droplets, cssClass: '', hoverImg: '/petroleum.png' },
+  { id: 'scrap', name: 'Ferrous & Non-Ferrous Scrap', desc: 'Sustainable recycling globally.', icon: Recycle, cssClass: '', hoverImg: '/scrap.png' },
+  { id: 'agri', name: 'Agricultural Commodities', desc: 'Grains, pulses, and edible oils securing food chains.', icon: Sprout, cssClass: 'card-agri flex-row items-center justify-between', hoverImg: '/agricultural.png' },
 ];
 
 export default function Commodities() {

@@ -76,7 +76,7 @@ export default function Hero() {
         {/* Right Content - Image (Above on Mobile, Right on Desktop) */}
         <div className="relative h-[280px] sm:h-[350px] md:h-[500px] lg:h-[600px] w-full rounded-xl overflow-hidden shadow-[0_20px_50px_rgba(27,42,59,0.1)] order-1 lg:order-2">
           <img 
-            src="https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=1800&q=80" 
+            src="/hero-ship.png" 
             alt="Cargo Ship Port"
             className="w-full h-full object-cover"
           />

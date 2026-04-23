@@ -11,10 +11,10 @@ export default function AboutPage() {
       {/* Hero Banner */}
       <section className="relative w-full min-h-[40vh] flex items-center justify-center overflow-hidden bg-bg-base">
         <div 
-          className="absolute inset-0 z-0 bg-cover bg-center opacity-40 mix-blend-luminosity"
-          style={{ backgroundImage: `url('https://images.unsplash.com/photo-1611273426858-450d8e3c9fce?w=1800&q=80')` }}
+          className="absolute inset-0 z-0 bg-cover bg-center opacity-60"
+          style={{ backgroundImage: `url('/about-page-hero.png')` }}
         />
-        <div className="absolute inset-0 z-0 bg-gradient-to-t from-bg-base via-bg-base/80 to-transparent" />
+        <div className="absolute inset-0 z-0 bg-gradient-to-t from-bg-base via-bg-base/60 to-bg-base/30" />
         
         <div className="relative z-10 text-center flex flex-col items-center max-w-[1280px] px-6 lg:px-16 w-full mt-12">
           <h1 className="font-heading font-[700] text-5xl md:text-[72px] text-text-primary leading-[1.05] tracking-tighter">
@@ -36,7 +36,7 @@ export default function AboutPage() {
           >
             <div className="absolute inset-0 border-2 border-accent-primary/50 transform -rotate-2 -translate-x-4 -translate-y-4"></div>
             <img 
-              src="https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=1000&q=80" 
+              src="/about-page-story.jpg" 
               alt="Industrial shipping port"
               className="w-full h-auto object-cover grayscale mix-blend-luminosity hover:grayscale-[50%] transition-all duration-700" 
             />
