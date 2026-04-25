@@ -4,7 +4,6 @@ import Commodities from '../components/Commodities';
 import Services from '../components/Services';
 import GlobalReach from '../components/GlobalReach';
 import Vision from '../components/Vision';
-import Contact from '../components/Contact';
 
 export default function Home() {
   return (
@@ -15,7 +14,6 @@ export default function Home() {
       <Services />
       <GlobalReach />
       <Vision />
-      <Contact />
     </div>
   );
 }

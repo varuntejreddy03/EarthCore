@@ -1,13 +1,15 @@
 
-import { Pickaxe, Flame, Droplets, Recycle, Sprout } from 'lucide-react';
+import { Pickaxe, Flame, Droplets, Recycle, Sprout, Gem, FlaskConical } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const commodities = [
   { id: 'coal', name: 'Coal', desc: 'Thermal and metallurgical coal.', icon: Flame, cssClass: 'card-coal', hoverImg: '/coal.png' },
   { id: 'iron-ore', name: 'Iron Ore', desc: 'High-grade primary components.', icon: Pickaxe, cssClass: '', hoverImg: '/iron-ore.png' },
+  { id: 'manganese', name: 'Manganese', desc: 'Essential alloys for steel and battery production.', icon: Gem, cssClass: '', hoverImg: '/iron-ore.png' },
   { id: 'petroleum', name: 'Petroleum Products', desc: 'Refined fuels and industrial lubricants.', icon: Droplets, cssClass: '', hoverImg: '/petroleum.png' },
   { id: 'scrap', name: 'Ferrous & Non-Ferrous Scrap', desc: 'Sustainable recycling globally.', icon: Recycle, cssClass: '', hoverImg: '/scrap.png' },
   { id: 'agri', name: 'Agricultural Commodities', desc: 'Grains, pulses, and edible oils securing food chains.', icon: Sprout, cssClass: 'card-agri flex-row items-center justify-between', hoverImg: '/agricultural.png' },
+  { id: 'chemicals', name: 'Chemicals', desc: 'Industrial and specialty chemicals for diverse applications.', icon: FlaskConical, cssClass: '', hoverImg: '/chemicals.png' },
 ];
 
 export default function Commodities() {

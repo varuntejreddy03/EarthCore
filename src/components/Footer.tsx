@@ -8,12 +8,15 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           {/* Col 1 */}
           <div>
-            <Link to="/" className="flex flex-col mb-6">
-              <div className="flex items-baseline gap-0.5">
-                <span className="font-heading font-bold text-xl text-text-primary tracking-[0.08em]">
-                  EarthCore
-                </span>
-              </div>
+            <Link to="/" className="flex items-center gap-2.5 mb-6">
+              <img
+                src="/earthcore-logo.png"
+                alt="EarthCore Logo"
+                className="h-8 w-8 object-contain"
+              />
+              <span className="font-heading font-bold text-xl text-text-primary tracking-[0.08em]">
+                EarthCore
+              </span>
             </Link>
             <p className="text-text-secondary text-sm mb-6 leading-relaxed">
               Global commodities. Strategic trading. Integrated logistics.

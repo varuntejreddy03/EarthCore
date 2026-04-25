@@ -16,7 +16,7 @@ export default function ContactPage() {
     
     const text = `*New Trading Enquiry*\n\n*Name:* ${data.name}\n*Company:* ${data.company}\n*Email:* ${data.email}\n*Commodity:* ${data.commodity}\n\n*Message:*\n${data.message}`;
     const encodedText = encodeURIComponent(text);
-    window.open(`https://wa.me/919880478034?text=${encodedText}`, '_blank');
+    window.open(`https://wa.me/919550478034?text=${encodedText}`, '_blank');
   };
 
   return (
@@ -49,7 +49,7 @@ export default function ContactPage() {
                 <Phone className="text-accent-primary w-6 h-6 mt-0.5" />
                 <div>
                   <div className="flex items-center gap-3 mb-1">
-                    <p className="text-text-primary font-mono text-lg">+91 98804 78034</p>
+                    <p className="text-text-primary font-mono text-lg">+91 95504 78034</p>
                     <span className="bg-[#25D366]/20 text-[#25D366] text-[10px] font-bold px-2 py-0.5 rounded-sm uppercase tracking-wider">WhatsApp</span>
                   </div>
                 </div>
@@ -72,7 +72,7 @@ export default function ContactPage() {
             </div>
 
             <a
-              href="https://wa.me/919880478034"
+              href="https://wa.me/919550478034"
               target="_blank"
               rel="noopener noreferrer"
               className="w-full bg-[#25D366] text-[#080B08] font-bold text-lg py-4 rounded-sm flex items-center justify-center gap-3 hover:bg-[#20bd5a] hover:shadow-[0_0_24px_rgba(37,211,102,0.4)] transition-all"

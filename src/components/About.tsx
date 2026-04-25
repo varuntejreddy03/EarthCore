@@ -32,9 +32,17 @@ export default function About() {
             Built on Deep Market Intelligence
           </h2>
 
-          <p className="text-text-secondary text-lg leading-relaxed mb-4">
+          <p className="text-text-secondary text-lg leading-relaxed mb-6">
             EarthCore Resources Private Limited is a dynamic and forward-looking company founded by seasoned professionals with extensive expertise in metals and minerals trading, global commodities, and international logistics. Our leadership brings deep insight into global markets, economic trends, and international trade dynamics.
           </p>
+
+          <div className="flex flex-col gap-3 mb-6">
+            <span className="font-heading text-sm text-text-muted uppercase tracking-wider font-semibold">Key Commodities</span>
+            <div className="flex flex-wrap gap-2">
+              <span className="px-4 py-1.5 bg-bg-surface border border-border-subtle text-text-primary text-sm font-medium rounded-sm">Iron Ore</span>
+              <span className="px-4 py-1.5 bg-bg-surface border border-border-subtle text-text-primary text-sm font-medium rounded-sm">Manganese</span>
+            </div>
+          </div>
 
           <div className="grid grid-cols-2 gap-8 py-6 border-y border-border-subtle mb-4">
             <div className="flex flex-col gap-1">

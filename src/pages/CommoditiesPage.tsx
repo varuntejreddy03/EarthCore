@@ -21,12 +21,20 @@ const commoditiesData = [
     align: 'right'
   },
   {
+    id: 'manganese',
+    title: 'Manganese',
+    specs: 'Lumps • Fines • Alloys',
+    desc: 'Crucial for modern steelmaking and emerging battery technologies. We source premium manganese ore with optimal Mn content.',
+    image: '/iron-ore.png',
+    align: 'left'
+  },
+  {
     id: 'petroleum',
     title: 'Petroleum Products',
     specs: 'Crude • Refined • Lubricants',
     desc: 'A comprehensive suite of energy solutions powering modern industry. Handled with world-class maritime logistics.',
     image: '/petroleum.png',
-    align: 'left'
+    align: 'right'
   },
   {
     id: 'agri',
@@ -34,7 +42,7 @@ const commoditiesData = [
     specs: 'Grains • Oilseeds • Pulses',
     desc: 'Securing global food chains through reliable sourcing, bulk transportation, and rigorous compliance with international standards.',
     image: '/agricultural.png',
-    align: 'right'
+    align: 'left'
   },
   {
     id: 'chemicals',
@@ -42,7 +50,7 @@ const commoditiesData = [
     specs: 'Polymers • Industrial Compounds',
     desc: 'Specialized industrial grade chemicals pivotal for manufacturing, seamlessly delivered with specialized safety protocols.',
     image: '/chemicals.png',
-    align: 'left'
+    align: 'right'
   },
   {
     id: 'scrap',
@@ -50,7 +58,7 @@ const commoditiesData = [
     specs: 'Recycled Metals • Industrial Scrap',
     desc: 'Sustainable recycling globally.',
     image: '/scrap.png',
-    align: 'right'
+    align: 'left'
   }
 ];
 
