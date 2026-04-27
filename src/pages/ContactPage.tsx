@@ -65,7 +65,7 @@ export default function ContactPage() {
               <div className="flex items-start gap-4">
                 <Clock className="text-accent-primary w-6 h-6 mt-0.5" />
                 <div>
-                  <p className="text-text-primary font-body text-lg">Mon–Sat · 10:00 AM – 5:00 PM</p>
+                  <p className="text-text-primary font-body text-lg">Monday–Saturday · 10:00 AM – 5:00 PM</p>
                   <p className="text-text-muted font-body text-sm mt-1">Indian Standard Time (IST)</p>
                 </div>
               </div>

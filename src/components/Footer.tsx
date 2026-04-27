@@ -68,7 +68,7 @@ export default function Footer() {
               </li>
               <li className="flex flex-col">
                 <span className="text-text-muted mb-1 text-xs uppercase">Business Hours</span>
-                <span>Mon–Sat · 10:00 AM – 5:00 PM</span>
+                <span>Monday–Saturday · 10:00 AM – 5:00 PM</span>
               </li>
             </ul>
           </div>
