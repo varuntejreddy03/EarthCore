@@ -47,7 +47,7 @@ export default function Hero() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 0.6 }}
-            className="font-body text-[18px] font-medium leading-[1.7] text-text-primary pr-4"
+            className="font-body text-[18px] font-medium leading-[1.7] text-text-secondary pr-4"
           >
             EarthCore Resources connects global markets with expertise in metals, minerals, energy, and agricultural commodities.
           </motion.p>

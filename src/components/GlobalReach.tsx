@@ -38,8 +38,8 @@ export default function GlobalReach() {
           className="text-center mb-16"
         >
           <p className="font-mono text-accent-primary text-sm uppercase tracking-[0.2em] mb-4">Our Global Network</p>
-          <h2 className="font-heading font-bold text-[52px] text-text-primary leading-tight mb-6">From Source to Shore</h2>
-          <p className="font-body text-text-secondary text-lg max-w-2xl mx-auto">
+          <h2 className="font-heading font-[700] text-4xl md:text-5xl text-text-primary leading-tight mb-6">From Source to Shore</h2>
+          <p className="font-body text-text-secondary text-lg leading-relaxed max-w-2xl mx-auto">
             Our extensive network of global partners and localized logistics expertise ensures your resources arrive safely, efficiently, and precisely when required.
           </p>
         </motion.div>
@@ -57,8 +57,8 @@ export default function GlobalReach() {
               <div className="mb-6 bg-accent-primary/10 p-4 rounded-full group-hover:scale-110 transition-transform">
                 <stat.icon className="text-accent-primary w-8 h-8" />
               </div>
-              <h3 className="font-heading font-semibold text-2xl text-text-primary mb-3">{stat.title}</h3>
-              <p className="font-body text-text-secondary text-[15px] leading-relaxed text-center">
+              <h3 className="font-heading font-[600] text-xl text-text-primary mb-3">{stat.title}</h3>
+              <p className="font-body text-text-secondary text-base leading-relaxed text-center">
                 {stat.desc}
               </p>
             </motion.div>

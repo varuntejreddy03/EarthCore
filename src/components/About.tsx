@@ -28,7 +28,7 @@ export default function About() {
             </h3>
           </div>
 
-          <h2 className="font-heading font-bold text-4xl md:text-5xl text-text-primary leading-tight">
+          <h2 className="font-heading font-[700] text-4xl md:text-5xl text-text-primary leading-tight">
             Built on Deep Market Intelligence
           </h2>
 

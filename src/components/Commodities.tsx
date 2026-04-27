@@ -14,7 +14,7 @@ export default function Commodities() {
   return (
     <section id="commodities" className="bg-bg-base pt-24 pb-32 border-b border-border-subtle">
       <div className="flex flex-col items-center mb-16 px-6 relative z-10">
-        <h2 className="font-heading font-[700] text-[52px] text-text-primary mb-4">What We Trade</h2>
+        <h2 className="font-heading font-[700] text-4xl md:text-5xl text-text-primary mb-4">What We Trade</h2>
         <div className="w-[60px] h-[2px] bg-accent-primary"></div>
       </div>
 
@@ -30,8 +30,8 @@ export default function Commodities() {
                 <item.icon className="text-accent-primary w-8 h-8 mb-6 group-hover:scale-110 transition-transform" />
               </div>
               <div className="relative z-10 mt-8">
-                <h3 className="font-heading font-[600] text-3xl mb-2 group-hover:text-accent-primary transition-colors text-[#1B2A3B]">{item.name}</h3>
-                <p className="font-body text-[#4A4A4A] text-sm md:text-base leading-[1.6] max-w-sm">{item.desc}</p>
+                <h3 className="font-heading font-[600] text-2xl mb-2 group-hover:text-accent-primary transition-colors text-text-primary">{item.name}</h3>
+                <p className="font-body text-text-secondary text-base leading-[1.6] max-w-sm">{item.desc}</p>
               </div>
             </Link>
           ))}

@@ -20,8 +20,8 @@ export default function Contact() {
             viewport={{ once: true }}
             className="mb-12"
           >
-            <h2 className="font-heading font-bold text-5xl text-text-primary mb-6">Let's Trade Together</h2>
-            <p className="font-body text-text-secondary text-lg">
+            <h2 className="font-heading font-[700] text-4xl md:text-5xl text-text-primary mb-6">Let's Trade Together</h2>
+            <p className="font-body text-text-secondary text-lg leading-relaxed">
               Partner with EarthCore Resources for reliable quality, competitive pricing, and unbreakable supply chain solutions that keep your business moving forward.
             </p>
           </motion.div>
@@ -39,7 +39,7 @@ export default function Contact() {
               <Phone className="text-accent-primary w-6 h-6 mt-1" />
               <div>
                 <div className="flex items-center gap-3 mb-1">
-                  <p className="text-text-primary font-medium text-lg font-mono">+91 95504 78034</p>
+                  <p className="text-text-primary font-medium text-base font-mono">+91 88868 55449</p>
                   <span className="bg-[#25D366]/20 text-[#25D366] text-[10px] font-bold px-2 py-0.5 rounded-full uppercase tracking-wider">WhatsApp</span>
                 </div>
                 <p className="text-text-muted text-sm">Available for immediate inquiries</p>
@@ -68,7 +68,7 @@ export default function Contact() {
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
             transition={{ delay: 0.4 }}
-            href="https://wa.me/919550478034"
+            href="https://wa.me/918886855449"
             target="_blank"
             rel="noopener noreferrer"
             className="w-full bg-[#25D366] text-white font-bold text-lg py-4 rounded-sm flex items-center justify-center gap-3 hover:shadow-[0_0_20px_rgba(37,211,102,0.3)] transition-all transform hover:-translate-y-1 active:scale-[0.98]"
@@ -86,7 +86,7 @@ export default function Contact() {
           className="lg:col-span-7"
         >
           <div className="bg-bg-elevated p-8 md:p-12 rounded-sm border border-border-subtle shadow-2xl relative overflow-hidden">
-            <h3 className="font-heading font-semibold text-2xl text-text-primary mb-8">Send an Enquiry</h3>
+            <h3 className="font-heading font-[600] text-2xl text-text-primary mb-8">Enquiry</h3>
             
             <form onSubmit={submitHandler} className="flex flex-col gap-6 relative z-10">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

@@ -16,7 +16,7 @@ export default function ContactPage() {
     
     const text = `*New Trading Enquiry*\n\n*Name:* ${data.name}\n*Company:* ${data.company}\n*Email:* ${data.email}\n*Commodity:* ${data.commodity}\n\n*Message:*\n${data.message}`;
     const encodedText = encodeURIComponent(text);
-    window.open(`https://wa.me/919550478034?text=${encodedText}`, '_blank');
+    window.open(`https://wa.me/918886855449?text=${encodedText}`, '_blank');
   };
 
   return (
@@ -49,7 +49,7 @@ export default function ContactPage() {
                 <Phone className="text-accent-primary w-6 h-6 mt-0.5" />
                 <div>
                   <div className="flex items-center gap-3 mb-1">
-                    <p className="text-text-primary font-mono text-lg">+91 95504 78034</p>
+                    <p className="text-text-primary font-mono text-lg">+91 88868 55449</p>
                     <span className="bg-[#25D366]/20 text-[#25D366] text-[10px] font-bold px-2 py-0.5 rounded-sm uppercase tracking-wider">WhatsApp</span>
                   </div>
                 </div>
@@ -65,14 +65,15 @@ export default function ContactPage() {
               <div className="flex items-start gap-4">
                 <Clock className="text-accent-primary w-6 h-6 mt-0.5" />
                 <div>
-                  <p className="text-text-primary font-body text-lg">Monday–Saturday · 10:00 AM – 5:00 PM</p>
+                  <p className="text-text-primary font-body text-lg">Monday–Saturday</p>
+                  <p className="text-text-primary font-body text-lg">10:00 AM – 5:00 PM</p>
                   <p className="text-text-muted font-body text-sm mt-1">Indian Standard Time (IST)</p>
                 </div>
               </div>
             </div>
 
             <a
-              href="https://wa.me/919550478034"
+              href="https://wa.me/918886855449"
               target="_blank"
               rel="noopener noreferrer"
               className="w-full bg-[#25D366] text-[#080B08] font-bold text-lg py-4 rounded-sm flex items-center justify-center gap-3 hover:bg-[#20bd5a] hover:shadow-[0_0_24px_rgba(37,211,102,0.4)] transition-all"
@@ -86,7 +87,7 @@ export default function ContactPage() {
         {/* Right Side (Form) */}
         <div className="bg-bg-surface p-12 lg:p-24 flex items-center justify-center relative border-l border-border-subtle">
           <div className="w-full max-w-[600px] border border-border-accent/30 bg-bg-elevated p-8 md:p-12 shadow-[0_0_50px_rgba(0,0,0,0.5)]">
-            <h3 className="font-heading font-[700] text-3xl text-text-primary mb-2">Send an Enquiry</h3>
+            <h3 className="font-heading font-[700] text-3xl text-text-primary mb-2">Enquiry</h3>
             <p className="text-text-muted text-sm font-body mb-8">Fill the form below and it will instantly map your requirements to WhatsApp.</p>
             
             <form onSubmit={submitHandler} className="flex flex-col gap-6">
@@ -131,7 +132,7 @@ export default function ContactPage() {
                   boxShadow: '0 4px 24px rgba(212,136,42,0.3)'
                 }}
               >
-                Send Enquiry <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
+                Submit <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
               </button>
             </form>
           </div>

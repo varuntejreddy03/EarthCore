@@ -70,34 +70,7 @@ export default function AboutPage() {
 
 
 
-      <div className="section-divider"></div>
 
-      {/* Timeline Bar */}
-      <section className="py-24 bg-bg-elevated overflow-hidden">
-        <div className="max-w-[1280px] mx-auto px-6 lg:px-16">
-          <div className="relative flex flex-col md:flex-row justify-between items-center gap-12">
-            
-            {/* Desktop connecting line */}
-            <div className="hidden md:block absolute top-[12px] left-[10%] right-[10%] h-[1px] bg-border-accent z-0"></div>
-            
-            {[
-              { year: '2005', label: 'Founded' },
-              { year: '2010', label: 'First Global Trade' },
-              { year: '2018', label: 'Expanded Network' },
-              { year: '2025', label: 'Present Scale' }
-            ].map((node, i) => (
-              <div key={i} className="relative z-10 flex flex-col items-center group bg-bg-elevated px-4">
-                <div className="w-6 h-6 rounded-full bg-bg-base border-2 border-accent-primary mb-4 flex items-center justify-center shadow-[0_0_15px_rgba(212,136,42,0.5)] group-hover:bg-accent-primary transition-colors">
-                  <div className="w-1.5 h-1.5 rounded-full bg-accent-primary group-hover:bg-bg-base"></div>
-                </div>
-                <span className="font-mono text-text-primary text-[14px] mb-2">{node.year}</span>
-                <span className="font-body text-text-muted text-sm">{node.label}</span>
-              </div>
-            ))}
-            
-          </div>
-        </div>
-      </section>
     </div>
   );
 }

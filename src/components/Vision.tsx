@@ -23,16 +23,13 @@ export default function Vision() {
         >
           <div className="absolute top-0 left-0 w-[4px] h-full bg-accent-primary"></div>
           
-          <p className="font-mono text-accent-primary text-xs uppercase tracking-[0.25em] mb-6">
-            Our Vision
+          <p className="font-mono text-accent-primary text-[10px] sm:text-xs uppercase tracking-[0.3em] mb-8">
+            ✦ Our Vision
           </p>
-          <h3 className="font-heading font-bold text-[22px] sm:text-[28px] md:text-[36px] text-text-primary leading-[1.35] tracking-tight">
-            Trusted Global Partner in Commodities Trading
-            <span className="text-accent-primary">—</span>
+          
+          <h3 className="font-heading font-[700] text-[20px] sm:text-[24px] md:text-[30px] text-text-primary leading-[1.4] tracking-[-0.01em]">
+            Trusted Global Partner in Commodities Trading—Delivering Value, Reliability, and Transparency Across the Supply Chain.
           </h3>
-          <p className="font-body text-text-secondary text-base sm:text-lg md:text-xl leading-relaxed mt-4">
-            Delivering Value, Reliability, and Transparency Across the Supply Chain.
-          </p>
         </motion.div>
 
         {/* Commitment Card */}
@@ -44,7 +41,7 @@ export default function Vision() {
         >
           <div className="absolute top-0 left-0 w-[4px] h-full bg-accent-primary"></div>
           
-          <h3 className="font-heading font-semibold text-3xl text-text-primary mb-8">Our Commitment</h3>
+          <h3 className="font-heading font-[600] text-2xl text-text-primary mb-8">Our Commitment</h3>
           
           <ul className="flex flex-col gap-6">
             {commitments.map((item, i) => (
@@ -59,7 +56,7 @@ export default function Vision() {
                 <div className="mt-0.5 min-w-[24px]">
                   <CheckCircle2 className="text-accent-green w-6 h-6 group-hover:scale-110 transition-transform" />
                 </div>
-                <span className="font-body text-text-primary text-lg">{item}</span>
+                <span className="font-body text-text-primary text-base">{item}</span>
               </motion.li>
             ))}
           </ul>

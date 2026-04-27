@@ -28,8 +28,8 @@ export default function Services() {
 
       <div className="relative z-10">
         <div className="flex flex-col items-center mb-20 text-center">
-          <h2 className="font-heading font-bold text-4xl text-text-primary mb-4">What We Do</h2>
-          <p className="text-text-secondary max-w-2xl font-body">
+          <h2 className="font-heading font-[700] text-4xl md:text-5xl text-text-primary mb-4">What We Do</h2>
+          <p className="text-text-secondary max-w-2xl font-body text-lg leading-relaxed">
             We provide a comprehensive suite of services that connect producers and consumers across the globe, ensuring efficiency, reliability, and scale.
           </p>
         </div>
@@ -51,8 +51,8 @@ export default function Services() {
               <div className="w-[80px] h-[80px] bg-bg-base border border-border-subtle group-hover:border-accent-primary transition-colors rounded-full flex items-center justify-center mb-6 shadow-sm group-hover:shadow-[0_0_20px_rgba(201,134,42,0.2)]">
                 <pillar.icon size={32} className="text-accent-primary" />
               </div>
-              <h3 className="font-heading font-semibold text-2xl text-text-primary mb-3">{pillar.title}</h3>
-              <p className="text-text-secondary font-body px-4 text-[15px] leading-relaxed">
+              <h3 className="font-heading font-[600] text-xl text-text-primary mb-3">{pillar.title}</h3>
+              <p className="text-text-secondary font-body px-4 text-base leading-relaxed">
                 {pillar.desc}
               </p>
             </motion.div>
@@ -70,8 +70,8 @@ export default function Services() {
           <div className="relative border border-border-subtle bg-bg-base/80 backdrop-blur-sm p-8 md:p-12 pl-10 md:pl-16 shadow-xl">
             <div className="absolute top-0 left-0 w-[4px] h-full bg-accent-primary"></div>
             
-            <h4 className="font-heading font-semibold text-2xl text-text-primary mb-4">An Integrated Approach</h4>
-            <p className="font-body text-text-secondary text-lg leading-relaxed max-w-4xl">
+            <h4 className="font-heading font-[600] text-xl text-text-primary mb-4">An Integrated Approach</h4>
+            <p className="font-body text-text-secondary text-base leading-relaxed max-w-4xl">
               Mastering supply chain segments, EarthCore slashes disruptions and drives efficiency. Our strategic edge enables rapid adaptation to market shifts, delivering lasting value beyond transactions.
             </p>
           </div>
