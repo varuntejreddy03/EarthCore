@@ -65,7 +65,7 @@ const commoditiesData = [
     title: 'Ferrous & Non-Ferrous Scrap',
     specs: 'Recycled Metals • Industrial Scrap',
     desc: 'Sustainable recycling globally.',
-    image: '/scrap.png',
+    image: '/ferrous-scrap.png',
     align: 'left'
   }
 ];
