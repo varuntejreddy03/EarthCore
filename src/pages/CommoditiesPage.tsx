@@ -9,7 +9,7 @@ const commoditiesData = [
     title: 'Coal',
     specs: 'Thermal • Metallurgical',
     desc: 'High-grade thermal and metallurgical coal catering to distinct energy and industrial needs globally. Sourced from premier basins with strict quality control.',
-    image: '/Coal-based-Thermal-Power-Plants.jpg',
+    image: '/coal-new.png',
     align: 'left'
   },
   {
