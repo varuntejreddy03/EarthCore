@@ -1,5 +1,5 @@
 
-import { Pickaxe, Flame, Droplets, Recycle, Sprout, Gem, FlaskConical } from 'lucide-react';
+import { Droplets, Recycle, Sprout, Gem, FlaskConical } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const commodities = [
