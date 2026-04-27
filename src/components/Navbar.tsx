@@ -62,23 +62,7 @@ export default function Navbar() {
           })}
         </nav>
 
-        {/* CTA Building */}
-        <div className="hidden md:block">
-          <motion.button
-            whileHover={{ 
-              y: -1,
-              boxShadow: '0 8px 32px rgba(212,136,42,0.5)',
-            }}
-            whileTap={{ scale: 0.97 }}
-            className="text-white px-5 py-2 rounded-sm text-sm font-bold transition-all"
-            style={{
-              background: 'var(--gradient-cta)',
-              boxShadow: '0 4px 24px rgba(212,136,42,0.3)'
-            }}
-          >
-            Get In Touch
-          </motion.button>
-        </div>
+
 
         {/* Mobile Toggle */}
         <button
@@ -108,15 +92,7 @@ export default function Navbar() {
                     {link.name}
                   </Link>
                 ))}
-                <div className="mt-8">
-                  <button 
-                  className="w-full text-white px-5 py-3 rounded-sm text-base font-bold text-center flex justify-center"
-                  style={{
-                    background: 'var(--gradient-cta)',
-                  }}>
-                    Get In Touch
-                  </button>
-                </div>
+
               </div>
             </motion.div>
           )}

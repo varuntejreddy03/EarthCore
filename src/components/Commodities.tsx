@@ -6,7 +6,7 @@ const commodities = [
   { id: 'minerals', name: 'Minerals', desc: 'Coal, iron ore, manganese and essential industrial minerals.', icon: Gem, cssClass: 'card-coal', hoverImg: '/iron-ore.png' },
   { id: 'petroleum', name: 'Petroleum Products', desc: 'Refined fuels and industrial lubricants.', icon: Droplets, cssClass: '', hoverImg: '/petroleum.png' },
   { id: 'scrap', name: 'Ferrous & Non-Ferrous Scrap', desc: 'Sustainable recycling globally.', icon: Recycle, cssClass: '', hoverImg: '/ferrous-scrap.png' },
-  { id: 'agri', name: 'Agricultural Commodities', desc: 'Grains, pulses, and edible oils securing food chains.', icon: Sprout, cssClass: 'card-agri flex-row items-center justify-between', hoverImg: '/agricultural.png' },
+  { id: 'agri', name: 'Agricultural Commodities', desc: 'Grains, pulses, and edible oils securing food chains.', icon: Sprout, cssClass: '', hoverImg: '/agricultural.png' },
   { id: 'chemicals', name: 'Chemicals', desc: 'Industrial and specialty chemicals for diverse applications.', icon: FlaskConical, cssClass: '', hoverImg: '/chemicals.png' },
 ];
 
