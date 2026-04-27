@@ -34,12 +34,7 @@ export default function Navbar() {
     >
       <div className="max-w-[1280px] mx-auto px-6 lg:px-16 h-full flex items-center justify-between">
         {/* Logo */}
-        <Link to="/" className="flex items-center relative z-50 group gap-2.5">
-          <img
-            src="/earthcore-logo.png"
-            alt="EarthCore Logo"
-            className="h-9 w-9 object-contain"
-          />
+        <Link to="/" className="flex items-center relative z-50 group">
           <span className="font-heading font-bold text-2xl text-text-primary tracking-[0.08em] leading-none">
             EarthCore
           </span>

@@ -9,7 +9,7 @@ const commoditiesData = [
     title: 'Coal',
     specs: 'Thermal • Metallurgical',
     desc: 'High-grade thermal and metallurgical coal catering to distinct energy and industrial needs globally. Sourced from premier basins with strict quality control.',
-    image: '/coal.png',
+    image: '/Coal-based-Thermal-Power-Plants.jpg',
     align: 'left'
   },
   {
@@ -25,8 +25,16 @@ const commoditiesData = [
     title: 'Manganese',
     specs: 'Lumps • Fines • Alloys',
     desc: 'Crucial for modern steelmaking and emerging battery technologies. We source premium manganese ore with optimal Mn content.',
-    image: '/iron-ore.png',
+    image: '/alumini.png',
     align: 'left'
+  },
+  {
+    id: 'bauxite',
+    title: 'Bauxite',
+    specs: 'Ore • Alumina • Laterite',
+    desc: 'Primary source of aluminium, essential for aerospace, automotive, and construction industries. We supply high-quality bauxite with consistent Al₂O₃ content from trusted global sources.',
+    image: '/mangannese.png',
+    align: 'right'
   },
   {
     id: 'petroleum',
@@ -41,7 +49,7 @@ const commoditiesData = [
     title: 'Agricultural',
     specs: 'Grains • Oilseeds • Pulses',
     desc: 'Securing global food chains through reliable sourcing, bulk transportation, and rigorous compliance with international standards.',
-    image: '/agricultural.png',
+    image: '/framing.jpg',
     align: 'left'
   },
   {

@@ -8,12 +8,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           {/* Col 1 */}
           <div>
-            <Link to="/" className="flex items-center gap-2.5 mb-6">
-              <img
-                src="/earthcore-logo.png"
-                alt="EarthCore Logo"
-                className="h-8 w-8 object-contain"
-              />
+            <Link to="/" className="flex items-center mb-6">
               <span className="font-heading font-bold text-xl text-text-primary tracking-[0.08em]">
                 EarthCore
               </span>
@@ -49,7 +44,7 @@ export default function Footer() {
           <div>
             <h4 className="font-heading font-semibold text-text-primary mb-6 tracking-wide">Commodities</h4>
             <ul className="flex flex-col gap-3">
-              {['Coal', 'Iron Ore', 'Manganese', 'Petroleum Products', 'Ferrous Scrap', 'Minerals', 'Agricultural', 'Chemicals'].map((item) => (
+              {['Minerals', 'Petroleum Products', 'Agricultural', 'Ferrous & Non-Ferrous Scrap', 'Chemicals'].map((item) => (
                 <li key={item}>
                   <span className="font-mono text-xs text-text-secondary hover:text-text-primary transition-colors cursor-pointer">
                     {item}

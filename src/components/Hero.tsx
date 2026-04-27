@@ -86,7 +86,7 @@ export default function Hero() {
       {/* Marquee Ticker */}
       <div className="absolute bottom-0 w-full overflow-hidden bg-bg-surface/80 backdrop-blur-md border-t border-border-subtle h-12 flex items-center z-20">
         <div className="flex w-max animate-marquee">
-          {['COAL', 'IRON ORE', 'MANGANESE', 'PETROLEUM', 'FERROUS SCRAP', 'MINERALS', 'AGRICULTURAL', 'CHEMICALS', 'COAL', 'IRON ORE', 'MANGANESE', 'PETROLEUM', 'FERROUS SCRAP', 'MINERALS', 'AGRICULTURAL', 'CHEMICALS'].map((item, idx) => (
+          {['MINERALS', 'PETROLEUM', 'FERROUS SCRAP', 'AGRICULTURAL', 'CHEMICALS', 'MINERALS', 'PETROLEUM', 'FERROUS SCRAP', 'AGRICULTURAL', 'CHEMICALS'].map((item, idx) => (
             <span key={idx} className="flex items-center text-text-muted font-mono text-[12px] tracking-wider whitespace-nowrap">
               <span className="mx-6 text-border-subtle">•</span>
               {item}

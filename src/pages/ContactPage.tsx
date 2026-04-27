@@ -131,7 +131,7 @@ export default function ContactPage() {
                   boxShadow: '0 4px 24px rgba(212,136,42,0.3)'
                 }}
               >
-                Launch on WhatsApp <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
+                Send Enquiry <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
               </button>
             </form>
           </div>
