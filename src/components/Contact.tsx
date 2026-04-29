@@ -31,17 +31,14 @@ export default function Contact() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.2 }}
-            className="flex flex-col gap-8 mb-12"
+            className="flex flex-col gap-3 mb-12"
           >
 
 
             <div className="flex items-start gap-4">
               <Phone className="text-accent-primary w-6 h-6 mt-1" />
               <div>
-                <div className="flex items-center gap-3 mb-1">
-                  <p className="text-text-primary font-medium text-base font-mono">+91 88868 55449</p>
-                  <span className="bg-[#25D366]/20 text-[#25D366] text-[10px] font-bold px-2 py-0.5 rounded-full uppercase tracking-wider">WhatsApp</span>
-                </div>
+                <p className="text-text-primary text-lg font-medium mb-1">+91 88868 55449</p>
                 <p className="text-text-muted text-sm">Available for immediate inquiries</p>
               </div>
             </div>
@@ -49,7 +46,7 @@ export default function Contact() {
             <div className="flex items-start gap-4">
               <Mail className="text-accent-primary w-6 h-6 mt-1" />
               <div>
-                <a href="mailto:info@earthcore.co.in" className="text-text-primary font-medium text-lg hover:text-accent-primary transition-colors">info@earthcore.co.in</a>
+                <a href="mailto:info@earthcore.co.in" className="text-text-primary text-lg font-medium hover:text-accent-primary transition-colors">info@earthcore.co.in</a>
                 <p className="text-text-muted text-sm">General inquiries and proposals</p>
               </div>
             </div>
@@ -57,7 +54,7 @@ export default function Contact() {
             <div className="flex items-start gap-4">
               <Clock className="text-accent-primary w-6 h-6 mt-1" />
               <div>
-                <p className="text-text-primary font-medium text-lg">Mon–Sat · 10:00 AM – 5:00 PM</p>
+                <p className="text-text-primary text-lg font-medium">Mon–Sat · 10:00 AM – 5:00 PM</p>
                 <p className="text-text-muted text-sm">Indian Standard Time (IST)</p>
               </div>
             </div>

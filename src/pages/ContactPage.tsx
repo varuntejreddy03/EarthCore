@@ -38,36 +38,31 @@ export default function ContactPage() {
               Let's Trade<br/>Together.
             </h1>
             
-            <p className="font-heading italic text-[24px] text-text-secondary mb-16 border-l-2 border-accent-primary pl-6 hover:border-l-[4px] transition-all">
+            <p className="font-body text-xl leading-relaxed text-text-secondary mb-16 border-l-2 border-accent-primary pl-6 hover:border-l-[4px] transition-all">
               "Partner with EarthCore Resources for reliable quality, competitive pricing, and unbreakable supply chain solutions that keep your business moving forward."
             </p>
 
-            <div className="flex flex-col gap-8 mb-16">
-
-
+            <div className="flex flex-col gap-3 mb-16">
               <div className="flex items-start gap-4">
                 <Phone className="text-accent-primary w-6 h-6 mt-0.5" />
                 <div>
-                  <div className="flex items-center gap-3 mb-1">
-                    <p className="text-text-primary font-mono text-lg">+91 88868 55449</p>
-                    <span className="bg-[#25D366]/20 text-[#25D366] text-[10px] font-bold px-2 py-0.5 rounded-sm uppercase tracking-wider">WhatsApp</span>
-                  </div>
+                  <p className="text-text-primary text-lg font-medium">+91 88868 55449</p>
                 </div>
               </div>
 
               <div className="flex items-start gap-4">
                 <Mail className="text-accent-primary w-6 h-6 mt-0.5" />
                 <div>
-                  <a href="mailto:info@earthcore.co.in" className="text-text-primary font-body text-lg hover:text-accent-primary transition-colors">info@earthcore.co.in</a>
+                  <a href="mailto:info@earthcore.co.in" className="text-text-primary text-lg font-medium hover:text-accent-primary transition-colors">info@earthcore.co.in</a>
                 </div>
               </div>
 
               <div className="flex items-start gap-4">
                 <Clock className="text-accent-primary w-6 h-6 mt-0.5" />
                 <div>
-                  <p className="text-text-primary font-body text-lg">Monday–Saturday</p>
-                  <p className="text-text-primary font-body text-lg">10:00 AM – 5:00 PM</p>
-                  <p className="text-text-muted font-body text-sm mt-1">Indian Standard Time (IST)</p>
+                  <p className="text-text-primary text-lg font-medium">Monday–Saturday</p>
+                  <p className="text-text-primary text-lg font-medium">10:00 AM – 5:00 PM</p>
+                  <p className="text-text-muted text-sm mt-1">Indian Standard Time (IST)</p>
                 </div>
               </div>
             </div>

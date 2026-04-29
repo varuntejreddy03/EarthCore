@@ -23,11 +23,11 @@ export default function Vision() {
         >
           <div className="absolute top-0 left-0 w-[4px] h-full bg-accent-primary"></div>
           
-          <p className="font-mono text-accent-primary text-[10px] sm:text-xs uppercase tracking-[0.3em] mb-8">
+          <p className="font-mono text-accent-primary text-sm uppercase tracking-[0.2em] mb-8">
             ✦ Our Vision
           </p>
           
-          <h3 className="font-heading font-[700] text-[20px] sm:text-[24px] md:text-[30px] text-text-primary leading-[1.4] tracking-[-0.01em]">
+          <h3 className="font-heading font-[700] text-2xl md:text-4xl lg:text-5xl text-text-primary leading-tight">
             Trusted Global Partner in Commodities Trading—Delivering Value, Reliability, and Transparency Across the Supply Chain.
           </h3>
         </motion.div>

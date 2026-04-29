@@ -8,10 +8,16 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           {/* Col 1 */}
           <div>
-            <Link to="/" className="flex items-center mb-6">
-              <span className="font-heading font-bold text-xl text-text-primary tracking-[0.08em]">
-                EarthCore
-              </span>
+            <Link to="/" className="flex items-center gap-2 mb-6 group">
+              <img src="/EarthCore Logo.webp" alt="EarthCore Logo" className="h-12 w-auto" />
+              <div className="flex flex-col">
+                <span className="font-heading font-bold text-lg text-[#4A3728] tracking-[0.02em] leading-tight">
+                  EarthCore
+                </span>
+                <span className="font-heading font-medium text-[9px] text-[#634D3D] tracking-[0.15em] leading-tight">
+                  Resources
+                </span>
+              </div>
             </Link>
             <p className="text-text-secondary text-sm mb-6 leading-relaxed">
               Global commodities. Strategic trading. Integrated logistics.
@@ -28,7 +34,7 @@ export default function Footer() {
 
           {/* Col 2 */}
           <div>
-            <h4 className="font-heading font-semibold text-text-primary mb-6 tracking-wide">Quick Links</h4>
+            <h4 className="font-heading font-semibold text-lg text-text-primary mb-6 tracking-wide">Quick Links</h4>
             <ul className="flex flex-col gap-3">
               {['Home', 'About', 'Commodities', 'Services', 'Contact'].map((link) => (
                 <li key={link}>
@@ -42,11 +48,11 @@ export default function Footer() {
 
           {/* Col 3 */}
           <div>
-            <h4 className="font-heading font-semibold text-text-primary mb-6 tracking-wide">Commodities</h4>
+            <h4 className="font-heading font-semibold text-lg text-text-primary mb-6 tracking-wide">Commodities</h4>
             <ul className="flex flex-col gap-3">
               {['Minerals', 'Petroleum Products', 'Agricultural', 'Ferrous & Non-Ferrous Scrap', 'Chemicals'].map((item) => (
                 <li key={item}>
-                  <span className="font-mono text-xs text-text-secondary hover:text-text-primary transition-colors cursor-pointer">
+                  <span className="text-sm text-text-secondary hover:text-accent-primary transition-colors cursor-pointer">
                     {item}
                   </span>
                 </li>
@@ -56,18 +62,18 @@ export default function Footer() {
 
           {/* Col 4 */}
           <div>
-            <h4 className="font-heading font-semibold text-text-primary mb-6 tracking-wide">Contact Us</h4>
+            <h4 className="font-heading font-semibold text-lg text-text-primary mb-6 tracking-wide">Contact Us</h4>
             <ul className="flex flex-col gap-4 text-sm text-text-secondary">
               <li className="flex flex-col">
-                <span className="text-text-muted mb-1 text-xs uppercase">Phone</span>
+                <span className="text-text-muted mb-1 text-sm uppercase">Phone</span>
                 <span className="text-text-primary">+91 88868 55449</span>
               </li>
               <li className="flex flex-col">
-                <span className="text-text-muted mb-1 text-xs uppercase">Email</span>
+                <span className="text-text-muted mb-1 text-sm uppercase">Email</span>
                 <span className="text-text-primary">info@earthcore.co.in</span>
               </li>
               <li className="flex flex-col">
-                <span className="text-text-muted mb-1 text-xs uppercase">Business Hours</span>
+                <span className="text-text-muted mb-1 text-sm uppercase">Business Hours</span>
                 <span>Monday–Saturday</span>
                 <span>10:00 AM – 5:00 PM</span>
               </li>

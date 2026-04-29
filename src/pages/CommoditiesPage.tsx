@@ -37,6 +37,14 @@ const commoditiesData = [
     align: 'right'
   },
   {
+    id: 'metal',
+    title: 'Metal',
+    specs: 'Ferrous Alloys • Non-Ferrous Base Metals',
+    desc: 'Premium metals including ferrous alloys, steel, and high-quality non-ferrous base metals for global manufacturing and infrastructure.',
+    image: '/metals-grid.png',
+    align: 'left'
+  },
+  {
     id: 'petroleum',
     title: 'Petroleum Products',
     specs: 'Crude • Refined • Lubricants',
@@ -49,7 +57,7 @@ const commoditiesData = [
     title: 'Agricultural',
     specs: 'Grains • Oilseeds • Pulses',
     desc: 'Securing global food chains through reliable sourcing, bulk transportation, and rigorous compliance with international standards.',
-    image: '/framing.jpg',
+    image: '/rice-harvest.png',
     align: 'left'
   },
   {
@@ -64,7 +72,7 @@ const commoditiesData = [
     id: 'scrap',
     title: 'Ferrous & Non-Ferrous Scrap',
     specs: 'Recycled Metals • Industrial Scrap',
-    desc: 'Sustainable recycling globally.',
+    desc: 'Ferrous Metal: Ferro Alloys, Steel.\nNon Ferrous Metal: Magnesium, Cerium, Titanium, Vanadium, Graphite, Zinc, Lead, Silver.',
     image: '/ferrous-scrap.png',
     align: 'left'
   }
@@ -135,7 +143,7 @@ export default function CommoditiesPage() {
                 <h2 className="font-heading font-[700] text-4xl text-text-primary">
                   {item.title}
                 </h2>
-                <p className="font-body text-text-secondary text-lg leading-[1.7] max-w-lg">
+                <p className="font-body text-text-secondary text-lg leading-[1.7] max-w-lg whitespace-pre-line">
                   {item.desc}
                 </p>
 

@@ -12,7 +12,7 @@ body {
 
 :root {
   --gradient-cta: linear-gradient(135deg, #C9862A 0%, #D4882A 100%);
-  --gradient-hero: linear-gradient(160deg, rgba(249,247,242,0.8) 0%, rgba(240,235,225,0.4) 50%, rgba(249,247,242,0.85) 100%);
+  --gradient-hero: linear-gradient(160deg, rgba(254,243,226,0.8) 0%, rgba(247,232,212,0.4) 50%, rgba(254,243,226,0.85) 100%);
 }
 
 /* Glassmorphism backdrop */
@@ -37,16 +37,16 @@ body {
   background: rgba(201,134,42,0.2); /* gap color = copper tint lines */
 }
 
+@media (min-width: 768px) {
+  .commodity-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 @media (min-width: 1024px) {
   .commodity-grid {
-    grid-template-columns: 2fr 1.5fr 1.5fr;
-    grid-template-rows: auto auto auto;
+    grid-template-columns: repeat(3, 1fr);
   }
-  
-  /* Coal: tall left cell spans 2 rows */
-  .card-coal    { grid-row: 1 / 3; }
-  /* Agricultural: wide bottom spans 2 cols */
-  .card-agri    { grid-column: 1 / 3; }
 }
 
 .section-divider {

@@ -6,11 +6,15 @@ export default function Hero() {
   const words = "The World's Resources. Delivered.".split(' ');
 
   return (
-    <section className="relative w-full min-h-screen flex lg:items-center overflow-hidden bg-bg-base pt-6 pb-24 lg:pt-0 lg:pb-0">
+    <section 
+      className="relative w-full min-h-screen flex lg:items-center overflow-hidden pt-6 pb-24 lg:pt-0 lg:pb-0 bg-cover bg-center bg-no-repeat"
+      style={{ backgroundImage: "url('/heroopage.png')" }}
+    >
       
-      {/* Background Image & Overlay */}
-      {/* Grain */}
-      <div className="absolute inset-0 z-0 grain pointer-events-none" />
+      {/* Background Image Overlay */}
+      <div className="absolute inset-0 z-0 bg-gradient-to-b md:bg-gradient-to-r from-bg-base/95 via-bg-base/80 to-bg-base/20 md:via-bg-base/50 md:to-transparent pointer-events-none w-full lg:w-[80%]"></div>
+      
+      {/* Grain removed for clarity */}
 
       <div className="max-w-[1280px] w-full mx-auto px-6 lg:px-16 grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center z-10 relative">
         
@@ -23,7 +27,7 @@ export default function Hero() {
             className="flex items-center gap-3"
           >
             <span className="w-8 h-[1px] bg-accent-primary"></span>
-            <h2 className="font-mono text-accent-primary text-[11px] tracking-[0.2em] uppercase">
+            <h2 className="font-mono text-accent-primary text-[10px] md:text-sm tracking-[0.2em] uppercase">
               Global Trading · Logistics
             </h2>
           </motion.div>
@@ -49,7 +53,7 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.6 }}
             className="font-body text-[18px] font-medium leading-[1.7] text-text-secondary pr-4"
           >
-            EarthCore Resources connects global markets with expertise in metals, minerals, energy, and agricultural commodities.
+            <span className="text-[#4A3728] font-bold">EarthCore Resources</span> connects global markets with expertise in metals, minerals, energy, and agricultural commodities.
           </motion.p>
 
           <motion.div 
@@ -73,14 +77,6 @@ export default function Hero() {
           </motion.div>
         </div>
 
-        {/* Right Content - Image (Above on Mobile, Right on Desktop) */}
-        <div className="relative h-[280px] sm:h-[350px] md:h-[500px] lg:h-[600px] w-full rounded-xl overflow-hidden shadow-[0_20px_50px_rgba(27,42,59,0.1)] order-1 lg:order-2">
-          <img 
-            src="/heroi.jpg" 
-            alt="Global Shipping Port"
-            className="w-full h-full object-cover"
-          />
-        </div>
       </div>
 
       {/* Marquee Ticker */}

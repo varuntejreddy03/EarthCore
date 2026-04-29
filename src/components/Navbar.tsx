@@ -34,10 +34,16 @@ export default function Navbar() {
     >
       <div className="max-w-[1280px] mx-auto px-6 lg:px-16 h-full flex items-center justify-between">
         {/* Logo */}
-        <Link to="/" className="flex items-center relative z-50 group">
-          <span className="font-heading font-bold text-2xl text-text-primary tracking-[0.08em] leading-none">
-            EarthCore
-          </span>
+        <Link to="/" className="flex items-center gap-2 relative z-50 group">
+          <img src="/EarthCore Logo.webp" alt="EarthCore Logo" className="h-12 w-auto" />
+          <div className="flex flex-col">
+            <span className="font-heading font-bold text-xl text-[#4A3728] tracking-[0.02em] leading-tight">
+              EarthCore
+            </span>
+            <span className="font-heading font-medium text-[10px] text-[#634D3D] tracking-[0.15em] leading-tight">
+              Resources
+            </span>
+          </div>
         </Link>
 
         {/* Desktop Nav */}
@@ -49,7 +55,7 @@ export default function Navbar() {
                 key={link.name}
                 to={link.path}
                 className={cn(
-                  'text-sm font-medium transition-colors relative py-1',
+                  'text-base font-medium transition-colors relative py-1',
                   isActive ? 'text-text-primary' : 'text-text-secondary hover:text-text-primary'
                 )}
               >
