@@ -8,13 +8,13 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           {/* Col 1 */}
           <div>
-            <Link to="/" className="flex items-center gap-2 mb-6 group">
-              <img src="/EarthCore Logo.webp" alt="EarthCore Logo" className="h-12 w-auto" />
-              <div className="flex flex-col">
-                <span className="font-heading font-bold text-lg text-[#4A3728] tracking-[0.02em] leading-tight">
+            <Link to="/" className="flex items-center gap-2 mb-6 group w-fit">
+              <img src="/EarthCore Logo Clean.webp?v=4" alt="EarthCore Logo" className="h-[36px] w-auto block" />
+              <div className="flex flex-col justify-center -mt-[1px]">
+                <span className="font-heading font-bold text-[18px] text-[#4A3728] tracking-[0.01em] leading-none">
                   EarthCore
                 </span>
-                <span className="font-heading font-medium text-[9px] text-[#634D3D] tracking-[0.15em] leading-tight">
+                <span className="font-heading font-bold text-[18px] text-[#634D3D] tracking-[0.01em] leading-none mt-0">
                   Resources
                 </span>
               </div>
