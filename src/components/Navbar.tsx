@@ -33,13 +33,17 @@ export default function Navbar() {
       )}
     >
       <div className="max-w-[1280px] mx-auto px-6 lg:px-16 h-full flex items-center justify-between">
-        <Link to="/" className="flex items-center gap-2 relative z-50 group">
-          <img src="/EarthCore Logo Clean.webp?v=4" alt="EarthCore Logo" className="h-[42px] w-auto block" />
-          <div className="flex flex-col justify-center -mt-[1px]">
-            <span className="font-heading font-bold text-[21px] text-[#4A3728] tracking-[0.01em] leading-none">
+        <Link to="/" className="flex items-center gap-3 relative z-50 group">
+          <img
+            src="/EarthCore Logo Clean.webp?v=6"
+            alt="EarthCore Logo"
+            className="h-[44px] w-[44px] block object-contain flex-shrink-0"
+          />
+          <div className="flex flex-col justify-center">
+            <span className="font-heading font-semibold text-[21px] text-[#4A3728] tracking-[0.01em] leading-[1.05]">
               EarthCore
             </span>
-            <span className="font-heading font-bold text-[21px] text-[#634D3D] tracking-[0.01em] leading-none mt-0">
+            <span className="font-heading font-semibold text-[21px] text-[#634D3D] tracking-[0.01em] leading-[1.05]">
               Resources
             </span>
           </div>
@@ -67,11 +71,9 @@ export default function Navbar() {
           })}
         </nav>
 
-
-
         {/* Mobile Toggle */}
         <button
-          className="md:hidden relative z-50 text-text-primary p-2"
+          className="md:hidden relative z-50 text-text-primary p-2 -mr-2"
           onClick={() => setIsOpen(!isOpen)}
         >
           {isOpen ? <X size={24} /> : <Menu size={24} />}
@@ -97,7 +99,6 @@ export default function Navbar() {
                     {link.name}
                   </Link>
                 ))}
-
               </div>
             </motion.div>
           )}
