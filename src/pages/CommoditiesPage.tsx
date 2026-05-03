@@ -37,10 +37,10 @@ const commoditiesData = [
     align: 'right'
   },
   {
-    id: 'metal',
-    title: 'Metal',
+    id: 'metals',
+    title: 'Metals',
     specs: 'Ferrous Alloys • Non-Ferrous Base Metals',
-    desc: 'Premium metals including ferrous alloys, steel, and high-quality non-ferrous base metals for global manufacturing and infrastructure.',
+    desc: 'Premium metals including ferrous alloys, steel, and high-quality non-ferrous base metals for global manufacturing and infrastructure.\n\nPortfolio Includes: Steel Billets, Cold Rolled Coils, Hot Rolled Coils, Aluminum Ingots, and Copper Cathodes.',
     image: '/metals-grid.png',
     align: 'left'
   },

@@ -54,11 +54,21 @@ export default function Footer() {
           <div>
             <h4 className="font-heading font-semibold text-lg text-text-primary mb-6 tracking-wide">Commodities</h4>
             <ul className="flex flex-col gap-3">
-              {['Minerals', 'Petroleum Products', 'Agricultural', 'Ferrous & Non-Ferrous Scrap', 'Chemicals'].map((item) => (
-                <li key={item}>
-                  <span className="text-sm text-text-secondary hover:text-accent-primary transition-colors cursor-pointer">
-                    {item}
-                  </span>
+              {[
+                { name: 'Minerals', id: 'minerals' },
+                { name: 'Metals', id: 'metals' },
+                { name: 'Petroleum Products', id: 'petroleum' },
+                { name: 'Agricultural', id: 'agri' },
+                { name: 'Ferrous & Non-Ferrous Scrap', id: 'scrap' },
+                { name: 'Chemicals', id: 'chemicals' }
+              ].map((item) => (
+                <li key={item.name}>
+                  <Link 
+                    to={`/commodities#${item.id}`} 
+                    className="text-sm text-text-secondary hover:text-accent-primary transition-colors"
+                  >
+                    {item.name}
+                  </Link>
                 </li>
               ))}
             </ul>

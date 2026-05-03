@@ -37,7 +37,7 @@ export default function Layout() {
   }, []);
 
   return (
-    <div className="relative min-h-screen flex flex-col pt-[72px] bg-bg-base">
+    <div className="relative min-h-screen flex flex-col bg-bg-base">
       
       {/* Desktop Custom Cursor */}
       <motion.div
