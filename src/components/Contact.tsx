@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Phone, Mail, Clock, ArrowRight } from 'lucide-react';
+import { Phone, Mail, Clock, ArrowRight, MapPin } from 'lucide-react';
 import Section from './Section';
 
 export default function Contact() {
@@ -52,6 +52,14 @@ export default function Contact() {
             </div>
 
             <div className="flex items-start gap-4">
+              <MapPin className="text-accent-primary w-6 h-6 mt-1" />
+              <div>
+                <p className="text-text-primary text-lg font-medium mb-1">Hyderabad, Telangana, India</p>
+                <p className="text-text-muted text-sm">Corporate Office</p>
+              </div>
+            </div>
+
+            <div className="flex items-start gap-4">
               <Clock className="text-accent-primary w-6 h-6 mt-1" />
               <div>
                 <p className="text-text-primary text-lg font-medium">Mon–Sat · 10:00 AM – 5:00 PM</p>
@@ -60,19 +68,8 @@ export default function Contact() {
             </div>
           </motion.div>
 
-          <motion.a
-            initial={{ opacity: 0, scale: 0.95 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.4 }}
-            href="https://wa.me/918886855449"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="w-full bg-[#25D366] text-white font-bold text-lg py-4 rounded-sm flex items-center justify-center gap-3 hover:shadow-[0_0_20px_rgba(37,211,102,0.3)] transition-all transform hover:-translate-y-1 active:scale-[0.98]"
-          >
-            <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
-            Connect on WhatsApp
-          </motion.a>
+            {/* WhatsApp button removed as requested */}
+
         </div>
 
         {/* Right: Form */}

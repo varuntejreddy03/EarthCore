@@ -26,14 +26,8 @@ export default function Footer() {
             <p className="text-text-secondary text-sm mb-6 leading-relaxed">
               Global commodities. Strategic trading. Integrated logistics.
             </p>
-            <div className="flex gap-4">
-              <a href="#" className="p-2 border border-border-subtle rounded hover:border-accent-earth text-text-secondary hover:text-text-primary transition-colors">
-                <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
-              </a>
-              <a href="https://wa.me/918886855449" className="p-2 border border-border-subtle rounded hover:border-[#25D366] text-text-secondary hover:text-text-primary transition-colors">
-                <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
-              </a>
-            </div>
+            {/* Social icons removed as requested */}
+
           </div>
 
           {/* Col 2 */}
@@ -87,6 +81,10 @@ export default function Footer() {
                 <span className="text-text-primary">info@earthcore.co.in</span>
               </li>
               <li className="flex flex-col">
+                <span className="text-text-muted mb-1 text-sm uppercase">Location</span>
+                <span className="text-text-primary">Hyderabad, Telangana, India</span>
+              </li>
+              <li className="flex flex-col">
                 <span className="text-text-muted mb-1 text-sm uppercase">Business Hours</span>
                 <span>Monday–Saturday</span>
                 <span>10:00 AM – 5:00 PM</span>
@@ -95,14 +93,30 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-border-subtle pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-xs text-text-muted">
-            ©2025 EarthCore Resources Private Limited. All rights reserved.
-          </p>
-          <a href="#" className="text-xs text-text-muted hover:text-text-primary transition-colors">
-            Privacy Policy
+        <div className="border-t border-border-subtle pt-8 flex flex-col items-center gap-6">
+          <a 
+            href="https://staffarc.in" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="flex items-center gap-2.5 text-sm text-text-secondary hover:text-text-primary transition-all group"
+          >
+            <span className="flex items-center gap-1.5">Made with <span className="text-[#e25555] animate-pulse">❤️</span> by</span>
+            <div className="flex items-center gap-1.5 bg-white/50 px-2 py-1 rounded-md border border-border-subtle group-hover:border-accent-primary transition-colors">
+              <img src="https://www.staffarc.in/images/Staffarc-logo.png" alt="StaffArc" className="h-5 object-contain" />
+              <span className="font-bold text-[#1B2A3B]">StaffArc</span>
+            </div>
           </a>
+
+          <div className="w-full flex flex-col md:flex-row justify-between items-center gap-4 pt-4 border-t border-border-subtle/30">
+            <p className="text-xs text-text-muted">
+              ©2025 EarthCore Resources Private Limited. All rights reserved.
+            </p>
+            <a href="#" className="text-xs text-text-muted hover:text-text-primary transition-colors">
+              Privacy Policy
+            </a>
+          </div>
         </div>
+
       </div>
     </footer>
   );

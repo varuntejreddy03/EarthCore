@@ -1,5 +1,5 @@
 import { Helmet } from 'react-helmet-async';
-import { Phone, Mail, Clock, ArrowRight } from 'lucide-react';
+import { Phone, Mail, Clock, ArrowRight, MapPin } from 'lucide-react';
 
 
 export default function ContactPage() {
@@ -42,7 +42,7 @@ export default function ContactPage() {
               "Partner with EarthCore Resources for reliable quality, competitive pricing, and unbreakable supply chain solutions that keep your business moving forward."
             </p>
 
-            <div className="flex flex-col gap-3 mb-16">
+            <div className="flex flex-col gap-4 mb-16">
               <div className="flex items-start gap-4">
                 <Phone className="text-accent-primary w-6 h-6 mt-0.5" />
                 <div>
@@ -58,6 +58,13 @@ export default function ContactPage() {
               </div>
 
               <div className="flex items-start gap-4">
+                <MapPin className="text-accent-primary w-6 h-6 mt-0.5" />
+                <div>
+                  <p className="text-text-primary text-lg font-medium">Hyderabad, Telangana, India</p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-4">
                 <Clock className="text-accent-primary w-6 h-6 mt-0.5" />
                 <div>
                   <p className="text-text-primary text-lg font-medium">Monday–Saturday</p>
@@ -67,15 +74,8 @@ export default function ContactPage() {
               </div>
             </div>
 
-            <a
-              href="https://wa.me/918886855449"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-full bg-[#25D366] text-[#080B08] font-bold text-lg py-4 rounded-sm flex items-center justify-center gap-3 hover:bg-[#20bd5a] hover:shadow-[0_0_24px_rgba(37,211,102,0.4)] transition-all"
-            >
-              <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
-              Connect on WhatsApp
-            </a>
+            {/* WhatsApp button removed as requested */}
+
           </div>
         </div>
 
